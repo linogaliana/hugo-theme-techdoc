@@ -1,5 +1,18 @@
 # Hugo Theme Techdoc
 
+
+:warning: Personal version of [hugo techdoc theme](https://themes.gohugo.io/theme/hugo-theme-techdoc/)
+
+List of changes follows
+
+* Adds a `CC logo`: ![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
+* Adds my name on the footer: 
+> Powered by [Hugo](https://gohugo.io/). Theme by [TechDoc](https://themes.gohugo.io/hugo-theme-techdoc/). Designed by [Thingsym](https://github.com/thingsym/hugo-theme-techdoc). Modified by [Lino Galiana](https://github.com/linogaliana/hugo-theme-techdoc)
+
+
+
+
+
 The Techdoc is a Hugo Theme for technical documentation.
 
 ![The Techdoc screenshot](https://raw.githubusercontent.com/thingsym/hugo-theme-techdoc/master/images/screenshot.png)
