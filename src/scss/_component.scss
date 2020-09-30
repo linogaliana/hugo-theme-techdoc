@@ -94,6 +94,12 @@ figure > figcaption {
 .panel-body {}
 
 
+.msg {
+	padding: $default-layout-padding;
+}
+.msg-primary {
+	border: 1px solid $default-border-color;
+}
 
 .msg-info,
 .msg-success,
