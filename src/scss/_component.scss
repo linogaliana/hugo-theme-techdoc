@@ -93,6 +93,12 @@ figure > figcaption {
 .panel-header {}
 .panel-body {}
 
+
+
+
+ .admonition{margin:1.5625em auto;padding:0 .6rem .8rem!important;overflow:hidden;page-break-inside:avoid;border-left:.2rem solid #007bff;border-radius:.1rem;box-shadow:0 .2rem .5rem rgba(0,0,0,.05),0 0 .05rem rgba(0,0,0,.1);transition:color .25s,background-color .25s,border-color .25s}.admonition :last-child{margin-bottom:0}.admonition p.admonition-title~*{padding:0 1.4rem}.admonition>ol,.admonition>ul{margin-left:1em}.admonition .admonition-title{position:relative;margin:0 -.6rem!important;padding:.4rem .6rem .4rem 2rem;font-weight:700;background-color:rgba(68,138,255,.1)}.admonition .admonition-title:before{position:absolute;left:.6rem;width:1rem;height:1rem;color:#007bff;font-family:Font Awesome\ 5 Free;font-weight:900;content:""}.admonition .admonition-title+*{margin-top:.4em}.admonition.attention{border-color:#fd7e14}.admonition.attention .admonition-title{background-color:#ffedcc}.admonition.attention .admonition-title:before{color:#fd7e14;content:""}.admonition.caution{border-color:#fd7e14}.admonition.caution .admonition-title{background-color:#ffedcc}.admonition.caution .admonition-title:before{color:#fd7e14;content:""}.admonition.warning{border-color:#dc3545}.admonition.warning .admonition-title{background-color:#fdf3f2}.admonition.warning .admonition-title:before{color:#dc3545;content:""}.admonition.danger{border-color:#dc3545}.admonition.danger .admonition-title{background-color:#fdf3f2}.admonition.danger .admonition-title:before{color:#dc3545;content:""}.admonition.error{border-color:#dc3545}.admonition.error .admonition-title{background-color:#fdf3f2}.admonition.error .admonition-title:before{color:#dc3545;content:""}.admonition.hint{border-color:#ffc107}.admonition.hint .admonition-title{background-color:#fff6dd}.admonition.hint .admonition-title:before{color:#ffc107;content:""}.admonition.tip{border-color:#ffc107}.admonition.tip .admonition-title{background-color:#fff6dd}.admonition.tip .admonition-title:before{color:#ffc107;content:""}.admonition.important{border-color:#007bff}.admonition.important .admonition-title{background-color:#e7f2fa}.admonition.important .admonition-title:before{color:#007bff;content:""}.admonition.note{border-color:#007bff}.admonition.note .admonition-title{background-color:#e7f2fa}.admonition.note .admonition-title:before{color:#007bff;content:""}
+
+
 .button {
 	display: inline-block;
 	font-size: 120%;
