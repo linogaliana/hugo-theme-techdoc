@@ -63,7 +63,10 @@ figure > figcaption {
 }
 
 .panel {
-	padding: $default-layout-padding;
+	/*padding: $default-layout-padding;*/
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
 }
 .panel-primary {
 	border: 1px solid $default-border-color;
@@ -82,8 +85,10 @@ figure > figcaption {
 	background: #de776d;
 }
 .panel-warning {
-	color: #fff;
-	background: #e67e22;
+  color: #9F6000;
+  background-color: #FEEFB3;
+	/*color: #fff;
+	background: #e67e22;*/
 }
 .panel-danger {
 	color: #fff;
@@ -94,35 +99,15 @@ figure > figcaption {
 .panel-body {}
 
 
-.msg {
-	padding: $default-layout-padding;
-}
-.msg-primary {
-	border: 1px solid $default-border-color;
-}
-
-.msg-info,
-.msg-success,
-.msg-warning,
-.msg-error {
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 3px 3px 3px 3px;
-}
-
-.msg-info {
+.panel-info {
   color: #059;
   background-color: #BEF;
 }
-.msg-success {
+.panel-success {
   color: #270;
   background-color: #DFF2BF;
 }
-.msg-warning {
-  color: #9F6000;
-  background-color: #FEEFB3;
-}
-.msg-error {
+.panel-error {
   color: #D8000C;
   background-color: #FFBABA;
 }
