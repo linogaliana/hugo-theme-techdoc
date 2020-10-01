@@ -12,7 +12,9 @@
 
 * More esthetic boxes based on [sphinxbook admonitions](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions)
 
-![](https://github.com/linogaliana/hugo-theme-techdoc/master/images/panel.png)
+![](https://github.com/linogaliana/hugo-theme-techdoc/blob/master/images/panel.png)
+
+obtained using HTML snippet:
 
 ~~~markdown
 {{< panel status="warning" title="Warning" icon="fa fa-exclamation-triangle" >}}
