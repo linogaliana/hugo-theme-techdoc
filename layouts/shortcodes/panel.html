@@ -1,4 +1,4 @@
-<div class="panel {{ with .Get "status" }}panel-{{ . }}{{ else }}panel-primary{{ end }}">
+<div class="{{ with .Get "status" }}panel-{{ . }}{{ else }}panel-primary{{ end }}">
 {{- with .Get "title" -}}
 <div class="panel-header-{{ $.Get "status" }}">
 <h3>{{ if $.Get "icon" }}<i class="{{ $.Get "icon" }}"></i> {{ end }}{{- htmlUnescape . | markdownify -}}</h3>
