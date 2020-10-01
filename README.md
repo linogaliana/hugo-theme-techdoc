@@ -3,14 +3,32 @@
 
 :warning: Personal version of [hugo techdoc theme](https://themes.gohugo.io/theme/hugo-theme-techdoc/)
 
-List of changes follows
+# List of changes
 
 * Adds a `CC logo`: ![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
+
 * Adds my name on the footer: 
 > Powered by [Hugo](https://gohugo.io/). Theme by [TechDoc](https://themes.gohugo.io/hugo-theme-techdoc/). Designed by [Thingsym](https://github.com/thingsym/hugo-theme-techdoc). Modified by [Lino Galiana](https://github.com/linogaliana/hugo-theme-techdoc)
 
+* More esthetic boxes based on [sphinxbook admonitions](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions)
 
+![](https://github.com/linogaliana/hugo-theme-techdoc/master/images/panel.png)
 
+~~~markdown
+{{< panel status="hint" title="Hint" icon="fa fa-lightbulb" >}}
+Example
+{{< /panel >}}
+
+{{< panel status="note" title="Note" icon="fa fa-comment" >}}
+Example
+{{< /panel >}}
+
+{{< panel status="tip" title="Tip" icon="fa fa-lightbulb" >}}
+Example
+{{< /panel >}}
+~~~
+
+# Techdoc documentation
 
 
 The Techdoc is a Hugo Theme for technical documentation.
