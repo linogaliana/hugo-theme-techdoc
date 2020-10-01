@@ -37,6 +37,14 @@ figure > figcaption {
 .panel,
 .button,
 .gist,
+.panel-warning,
+.panel-caution,
+.panel-danger,
+.panel-error,
+.panel-hint,
+.panel-tip,
+.panel-important,
+.panel-note,
 .twitter-tweet {
 	@extend .stack;
 }
