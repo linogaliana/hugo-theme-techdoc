@@ -15,6 +15,9 @@
 ![](https://github.com/linogaliana/hugo-theme-techdoc/master/images/panel.png)
 
 ~~~markdown
+{{< panel status="warning" title="Warning" icon="fa fa-exclamation-triangle" >}}
+Example{{< /panel >}}
+
 {{< panel status="hint" title="Hint" icon="fa fa-lightbulb" >}}
 Example
 {{< /panel >}}
